@@ -11,18 +11,32 @@ footer{
     text-align: center;
     margin: 0px;
     padding: 10px;
+    
+}
+
+button{
+    width: 200px;
+    height: 50px;
 }
 
 .titulo{
     text-align: center;
-    margin: 2px;
+    font-size: 55px;
+    margin: 10px;    
 }
 
 .sectionBody{
-    margin: 20px;
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
 }
 
 
 .rights{
     font-size: 70%;
+}
+
+.intro{
+    text-align: left;
 }
