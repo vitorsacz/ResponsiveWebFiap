@@ -17,7 +17,10 @@ footer{
 }
 
 .button{
-    width: 100%;
+    white-space: nowrap;
+    display: block;
+    max-width: 100%;
+    min-width: 100%;
     height: 200%;
     border-radius: 40px;
     font-size: 100%;
@@ -28,6 +31,19 @@ footer{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
 
 }
+.buttonSobre{
+    white-space: nowrap;
+    max-width: 100%;
+    min-width: 50%;
+    height: 200%;
+    border-radius: 40px;
+    font-size: 100%;
+    background-image: linear-gradient(to right bottom, rgb(8, 8, 87), rgb(61, 59, 209));
+    color: white;
+    font-weight: 600;
+    border: 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+  }
 
 .titulo{
     text-align: center;
@@ -98,14 +114,3 @@ footer{
     text-align: justify;
   }
   
-  .buttonSobre{
-    width: 30%;
-    height: 200%;
-    border-radius: 40px;
-    font-size: 100%;
-    background-image: linear-gradient(to right bottom, rgb(8, 8, 87), rgb(61, 59, 209));
-    color: white;
-    font-weight: 600;
-    border: 0;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
-  }
